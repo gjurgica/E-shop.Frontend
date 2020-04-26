@@ -9,6 +9,7 @@ import { ShopComponent } from './shop/shop.component';
 import { CollectionPreviewComponent } from './collection-preview/collection-preview.component';
 import { appRoutes } from './routes';
 import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeComponent,
     ShopComponent,
     CollectionPreviewComponent,
-    NavbarComponent
+    NavbarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
