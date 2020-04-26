@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { ShopComponent } from './shop/shop.component';
 import { CollectionPreviewComponent } from './collection-preview/collection-preview.component';
 import { appRoutes } from './routes';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { appRoutes } from './routes';
     AppComponent,
     HomeComponent,
     ShopComponent,
-    CollectionPreviewComponent
+    CollectionPreviewComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
